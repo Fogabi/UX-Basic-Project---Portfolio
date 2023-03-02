@@ -8,8 +8,8 @@
   align-items: center;
 }
 
-.main-title{
-  font-family: 'Playfair Display SC';
+.main-title {
+  font-family: "Playfair Display";
 }
 
 .introducao h1 {
@@ -47,21 +47,21 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
-  .introducao h1{
+  .introducao h1 {
     font-size: 2rem;
   }
-  .introducao h1::before{
+  .introducao h1::before {
     width: 30px;
     height: 10px;
     left: 0px;
   }
 }
 
-@media (max-width: 500px){
-    .introducao{
-        grid-template-columns: 1fr;
-    }
-    .introducao img{
-        display: none;
-    }
+@media (max-width: 500px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao img {
+    display: none;
+  }
 }
