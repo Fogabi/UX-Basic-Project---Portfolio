@@ -89,7 +89,7 @@
   padding: 5px 10px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
   .experience{
     grid-template-columns: 1fr;
     gap: 0px;
@@ -109,13 +109,16 @@
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
   .company{
     grid-template-columns: 1fr;
     margin-left: -80px;
     max-width: 100%;
   }
   .experience-text{
-    margin-left: -10px
+    margin-left: -10px;
+  }
+  .experience .subtitle{
+    max-width: 50%;
   }
 }

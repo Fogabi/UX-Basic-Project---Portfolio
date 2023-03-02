@@ -23,7 +23,7 @@
   display: block;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .header {
     flex-direction: column;
     gap: 40px;
