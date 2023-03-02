@@ -1,0 +1,168 @@
+.education {
+  max-width: 1200px;
+  background: #202020;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.education-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 163px;
+  gap: 160px;
+}
+
+.education-part1 {
+  padding-left: 120px;
+  padding-top: 90px;
+}
+
+.education .subtitle {
+  color: #000000;
+  transform: rotate(-90deg);
+  height: 8rem;
+  width: 610px;
+  margin-top: 400px;
+}
+
+.education-text {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #cccccc;
+}
+
+.education-text strong {
+  color: #fafafa;
+}
+
+.degree-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.degree {
+  flex: 1;
+  background: #141414;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.degree-course {
+  flex: 1;
+  max-width: 150px;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+  color: #f0f0f0;
+}
+
+.degree-course::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#ffaec7, #f9004d);
+  position: absolute;
+  left: -24px;
+}
+
+.degree-type {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.degree-institution {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: #b8b8b8;
+}
+
+.courses {
+  margin-bottom: 60px;
+}
+
+.education-extra {
+  margin-left: 6px;
+}
+
+.education-extra h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.education-extra h3::before {
+  display: block;
+  content: "";
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: -36px;
+  top: -1px;
+}
+
+.courses h3::before {
+  background: url(./img/icone_cursos.svg) no-repeat center center;
+}
+
+.languages h3::before {
+  background: url(./img/icone_idiomas.svg) no-repeat center center;
+}
+
+.education-extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.education-extra span {
+  color: #8f8f8f;
+}
+
+.courses li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .education {
+    height: 900px;
+  }
+  .education-container {
+    grid-template-columns: 1fr;
+    gap: 0px;
+    max-width: 80%;
+  }
+  .education .subtitle {
+    order: -1;
+    margin-top: 0px;
+    transform: rotate(0deg);
+    height: 5rem;
+    color: #f0f0f0;
+    word-wrap: break-word;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .education-part1 {
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+  .education-text {
+    font-size: 1.25rem;
+  }
+}
